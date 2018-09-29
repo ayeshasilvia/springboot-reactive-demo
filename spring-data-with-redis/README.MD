@@ -1,3 +1,11 @@
+This demo application is built following a demo shown in a talk:
+
+https://beta.voxxed.com/#/presentation/281
+
+The redis config was sorted using this resource:
+
+https://github.com/hantsy/spring-reactive-sample/blob/master/README.md#data-initialization-1
+
 Run using:
 `gradle composeUp bootRun`
 
