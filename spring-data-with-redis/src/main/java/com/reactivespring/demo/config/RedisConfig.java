@@ -1,5 +1,6 @@
-package com.reactivespring.demo;
+package com.reactivespring.demo.config;
 
+import com.reactivespring.demo.GameRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -12,7 +13,7 @@ import org.springframework.data.redis.repository.configuration.EnableRedisReposi
 import javax.annotation.PreDestroy;
 
 @Configuration
-@EnableRedisRepositories
+@EnableRedisRepositories(basePackageClasses = GameRepository.class)
 public class RedisConfig {
 
     @Autowired
