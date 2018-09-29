@@ -19,17 +19,4 @@ public class Game implements Serializable {
     @Id
     private String id;
     private String name;
-
-    public Game(String id, String name) {
-        this.id  = id;
-        this.name = name;
-    }
-
-    @Override
-    public String toString() {
-        return "Game{" +
-                "id='" + id + '\'' +
-                ", name='" + name + '\'' +
-                '}';
-    }
 }
