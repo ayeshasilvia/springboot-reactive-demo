@@ -2,7 +2,6 @@ plugins {
     id "com.avast.gradle.docker-compose" version "0.4.3"
 }
 
-// fix windows paths, replace all '\\' with '/'
 def root = rootDir.absolutePath
 
 dockerCompose {

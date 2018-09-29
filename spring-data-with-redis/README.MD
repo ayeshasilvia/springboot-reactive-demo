@@ -10,7 +10,7 @@ To view a particular game:
 To view all the events relevant to a particular game:
 `http -S :8080/games/{id}/events`
 
-Following endpoints use the Reactive route config (th3y ultimately get the same results as above)
+Following endpoints use the Reactive router function (th3y ultimately get the same results as above)
 
 To view the games list:
 `http :8080/reactive/games`
