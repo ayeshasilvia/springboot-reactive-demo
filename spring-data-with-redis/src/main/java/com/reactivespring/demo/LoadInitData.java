@@ -1,5 +1,6 @@
 package com.reactivespring.demo;
 
+import com.reactivespring.demo.model.Game;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;

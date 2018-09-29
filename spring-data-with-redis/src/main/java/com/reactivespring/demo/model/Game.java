@@ -1,4 +1,4 @@
-package com.reactivespring.demo;
+package com.reactivespring.demo.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

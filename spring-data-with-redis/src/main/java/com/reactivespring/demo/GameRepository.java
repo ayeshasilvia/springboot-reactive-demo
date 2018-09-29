@@ -1,5 +1,6 @@
 package com.reactivespring.demo;
 
+import com.reactivespring.demo.model.Game;
 import org.springframework.data.keyvalue.repository.KeyValueRepository;
 import org.springframework.stereotype.Repository;
 
