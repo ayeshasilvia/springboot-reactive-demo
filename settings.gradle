@@ -1,3 +1,4 @@
 rootProject.name = 'springboot-reactive-demo'
 include 'spring-data-with-redis'
+include 'demo-client'
 
